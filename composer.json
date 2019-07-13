@@ -1,5 +1,5 @@
 {
-    "name": "eminiarts/nova-tabs",
+    "name": "codebykyle/nova-tabs",
     "description": "Laravel Nova - Tabs.",
     "keywords": [
         "laravel",
@@ -10,6 +10,11 @@
             "name": "Emini Arts GmbH",
             "email": "support@eminiarts.ch",
             "homepage": "https://eminiarts.ch"
+        },
+        {
+            "name": "Kyle Shovan",
+            "email": "kyle@codebykyle.com",
+            "homepage": "https://codebykyle.com"
         }
     ],
     "license": "MIT",
@@ -24,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Eminiarts\\Tabs\\TabsServiceProvider"
+                "CodeByKyle\\Tabs\\TabsServiceProvider"
             ]
         }
     },
