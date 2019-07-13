@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Eminiarts\\Tabs\\": "src/"
+            "CodeByKyle\\Tabs\\": "src/"
         }
     },
     "extra": {
