@@ -1,5 +1,5 @@
 <?php
-namespace Eminiarts\Tabs;
+namespace CodeByKyle\Tabs;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
