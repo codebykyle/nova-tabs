@@ -1,5 +1,5 @@
 <?php
-namespace Eminiarts\Tabs;
+namespace CodeByKyle\Tabs;
 
 use RuntimeException;
 use Laravel\Nova\Panel;
