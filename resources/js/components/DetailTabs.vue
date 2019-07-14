@@ -1,7 +1,9 @@
 <template>
   <div>
     <slot>
-      <!--<h4 class="text-90 font-normal text-2xl mb-3">{{ panel.name }}</h4>-->
+      <heading :level="1" class="mb-3">
+        {{ panel.name }}
+      </heading>
     </slot>
     <div class="relationship-tabs-panel card">
       <div class="tabs-wrap border-b-2 border-40 w-full">
@@ -90,7 +92,7 @@ export default {
       if (!tabs.hasOwnProperty(field.tab)) {
         tabs[field.tab] = {
           name: field.tab,
-          init: false,
+          init: true,
           listable: field.listableTab,
           fields: []
         };

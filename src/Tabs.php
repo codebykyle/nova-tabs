@@ -11,7 +11,7 @@ class Tabs extends Panel
     /**
      * @var mixed
      */
-    public $defaultSearch = false;
+    public $defaultSearch = true;
 
     /**
      * Add fields to the Tab.

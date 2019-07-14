@@ -673,6 +673,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -716,7 +718,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       if (!tabs.hasOwnProperty(field.tab)) {
         tabs[field.tab] = {
           name: field.tab,
-          init: false,
+          init: true,
           listable: field.listableTab,
           fields: []
         };
@@ -795,7 +797,11 @@ var render = function() {
   return _c(
     "div",
     [
-      _vm._t("default"),
+      _vm._t("default", [
+        _c("heading", { staticClass: "mb-3", attrs: { level: 1 } }, [
+          _vm._v("\n      " + _vm._s(_vm.panel.name) + "\n    ")
+        ])
+      ]),
       _vm._v(" "),
       _c(
         "div",
